@@ -1,4 +1,4 @@
-/* Animación inicial con fade-in */
+/* Animación inicial con fade-in a*/
 .animate {
     opacity: 0;
     transform: translateY(30px);

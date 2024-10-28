@@ -1,4 +1,5 @@
 // Inicializar GSAP y ScrollMagic
+
 document.addEventListener("DOMContentLoaded", () => {
     // GSAP para animación de carga
     gsap.from(".animate", {

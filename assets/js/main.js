@@ -1,4 +1,5 @@
 // Animaciones con GSAP
+
 document.addEventListener("DOMContentLoaded", () => {
     gsap.to(".animate", { 
         opacity: 1, 
