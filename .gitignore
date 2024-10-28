@@ -1,0 +1,22 @@
+
+### 2. `.gitignore`
+El `.gitignore` le indica a Git qué archivos y carpetas debe ignorar. Esto es útil para evitar que subas archivos innecesarios como archivos temporales, configuraciones del sistema o carpetas de caché. Aquí tienes un ejemplo básico para una web en GitHub Pages:
+
+```gitignore
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones del editor
+.vscode/
+.idea/
+
+# Ignorar archivos de compilación o caché
+node_modules/
+dist/
+*.log
+
+# Ignorar configuraciones específicas de GitHub Pages si estás generando el sitio con Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
