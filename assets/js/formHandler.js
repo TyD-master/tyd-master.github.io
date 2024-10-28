@@ -1,5 +1,4 @@
 // Configuración para enviar correos con EmailJS
-
 document.getElementById("contactForm").addEventListener("submit", async function(event) {
     event.preventDefault();
 
